@@ -1,5 +1,11 @@
-from stego import stego
+from tkinter import Tk
+
+from ui.App import App
 
 
 if __name__ == '__main__':
-    stego()
+    #root = Tk()
+    app = App()
+    app.mainloop()
+    #app = App(root)
+    #root.mainloop()
