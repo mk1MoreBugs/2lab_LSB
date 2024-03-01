@@ -101,7 +101,6 @@ class EncodeScreen(ttk.Frame):
             )
 
 
-
 class DecodeScreen(ttk.Frame):
     def __init__(self, master):
         ttk.Frame.__init__(self, master)
